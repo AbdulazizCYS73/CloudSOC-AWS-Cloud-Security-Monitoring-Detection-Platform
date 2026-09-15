@@ -31,8 +31,6 @@ The architecture consists of the following components:
 | Internet Gateway | Provides internet connectivity for public resources |
 | Application Load Balancer | Distributes incoming application traffic |
 | Amazon EC2 | Provides application compute capacity |
-| Amazon RDS | Provides managed relational database storage |
-| Amazon S3 | Provides durable object storage |
 | AWS IAM | Controls identities and permissions |
 | AWS CloudTrail | Records AWS API activity |
 | Amazon CloudWatch | Provides monitoring, logging, metrics, and alarms |
