@@ -458,17 +458,17 @@ Email Alert
 
 # 🛡️ MITRE ATT&CK Mapping
 
-CloudSOC maps detected behaviors to MITRE ATT&CK techniques.
+CloudSOC maps detected behaviors to relevant MITRE ATT&CK techniques where the detection provides sufficient behavioral context.
 
 | Detection | Technique | Description |
 |---|---|---|
-| DET-001 | T1562.007 | Disable or Modify Cloud Firewall |
-| DET-002 | T1133 | External Remote Services |
+| DET-001 | Context-dependent | Security Group Ingress Change |
+| DET-002 | Context-dependent | SSH Exposure |
 | DET-003 | T1098 | Account Manipulation |
 | DET-004 | T1078.004 | Valid Accounts: Cloud Accounts |
 | DET-005 | T1046 | Network Service Scanning |
 
-MITRE mappings are used to provide security context to detections and incidents.
+MITRE mappings are used to provide security context to detections and incidents. Configuration-based detections are not treated as proof that an ATT&CK technique was successfully executed.
 
 ---
 
