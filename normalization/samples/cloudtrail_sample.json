@@ -1,0 +1,12 @@
+{
+    "eventTime": "2026-09-12T08:30:00Z",
+    "eventName": "AttachRolePolicy",
+    "sourceIPAddress": "REDACTED",
+    "userIdentity": {
+        "arn": "arn:aws:iam::REDACTED:root"
+    },
+    "requestParameters": {
+        "roleName": "CloudSOC-Test-Role"
+    },
+    "responseElements": {}
+}
